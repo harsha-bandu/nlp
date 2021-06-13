@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jun 13 23:18:38 2021
+
+@author: harsha
+"""
+
+<html>
+    <body>
+        <center>
+            <h1> Result </h1>
+            
+            {%if data == [0]%}
+            <h2>Converted</h2>
+            
+            {%elif data == [1]%}
+            <h2>Not Converted</h2>
+            
+            {% endif %}
+            
+            <br><br>
+            <a href='/'>Home</a>
+        </center>
+    </body>
+</html>
